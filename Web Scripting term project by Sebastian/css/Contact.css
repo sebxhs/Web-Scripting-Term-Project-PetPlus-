@@ -1,0 +1,183 @@
+.header { 
+
+  text-align: right;
+  background-color: #7E7E9C;
+  padding: 0px;
+   height: 130px; 
+    }
+
+    .header1 { 
+
+      position: relative;
+      top: 40px;
+        }
+
+    .mobile-sliding-menu { 
+
+      position: relative;
+      left: -10px;
+      top: 40px;
+        }
+
+.contactcopy { 
+
+  color: #241e3b;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  width: 630px;
+      }
+
+ .contacttext { 
+
+  text-align: center;
+  color: #241e3b;
+  font-size: 60px;
+  margin-top: 60px;
+  width: 800px;
+}
+
+.center { 
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttoncenter { 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  right: 45px;
+  }
+
+  .boxes {
+
+
+
+    display: grid;
+  
+    width: 569px;
+  
+    font-family: Arial, sans-serif;
+  
+    font-size: 12px;
+  
+    padding: 16px;
+  
+    margin-bottom: -9px;
+  
+    margin: 0 auto;
+  
+  }
+  
+  
+  
+  .input2{
+  
+  
+  
+    background-color: #E0E0E0;
+  
+    border: none;
+  
+    border-radius: 3px;
+  
+    height: 44px;
+
+  
+  }
+  
+  
+  
+  .input2:focus{
+  
+  
+  
+  outline: none;
+  
+  background-color: #e7e7e7;
+  
+  }
+  
+  
+  
+  
+  
+  .input{
+  
+  
+  
+    background-color: #E0E0E0;
+  
+    border: none;
+  
+    border-radius: 3px;
+  
+    height: 203px;
+
+   
+  
+  }
+  
+  
+  
+  .input:focus{
+  
+  
+  
+  outline: none;
+  
+  background-color: #e7e7e7;
+  
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+  }
+
+  .input2.error,
+  .input.error {
+    border: 2px solid red; /* Highlight invalid fields */
+  }
+
+ 
+  @media (max-width:1400px) {
+
+    .mobile-sliding-menu { 
+
+      position: relative;
+      left: -10px;
+      top: 40px;
+        }
+
+  }
+
+
+@media (max-width:900px) {
+
+  .mobile-sliding-menu { 
+
+    position: relative;
+    left: 0px;
+    top: 40px;
+      }
+
+
+  .contactcopy { 
+
+margin: 20px;
+        }
+  
+  .boxes{
+
+    width: auto;
+  }
+
+}

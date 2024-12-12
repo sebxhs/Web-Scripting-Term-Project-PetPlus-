@@ -1,0 +1,3 @@
+
+// Form Plugin
+$("#commentform").validate();

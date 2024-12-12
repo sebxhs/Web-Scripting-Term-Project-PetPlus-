@@ -1,0 +1,1705 @@
+
+    @font-face {
+      font-family: myFirstFont;
+      src: url(/font/OpenSans-VariableFont_wdth\,wght.ttf);
+    }
+
+    body { 
+
+      margin: 0;
+      font-family: myFirstFont;
+          
+          }
+
+    h2 , h1 { 
+
+      font-weight: 700;
+          
+          }
+      
+          .menu  { 
+
+           z-index: -1;
+                
+                }
+
+    .logo { 
+
+      display: flex;
+      margin-left: 0px;
+      position: relative;
+      top: 0px;
+        } 
+
+        .close {
+    
+          position: absolute;
+          z-index: -2;
+      }
+  
+        .mobile-sliding-menu { 
+
+          display: block;
+          margin-top: -54px;
+          text-align: right;
+          margin-right: 60px;
+          position: relative;
+          top: 10px;
+          right: 120px;
+            }
+
+    .alignright1  { 
+
+        margin-right: 200px;
+        
+          } 
+
+          .alignright  { 
+
+            margin-right: 200px;
+            
+              } 
+
+  .purplefont { 
+
+    font-weight: 800;
+    margin-bottom: 30px;
+      
+      } 
+
+.header { 
+
+text-align: right;
+background-color: #7E7E9C;
+padding: -5px;
+ height: 150px; 
+  }
+
+  .header1 { 
+
+    text-align: right;
+    background-color: #49496A;
+    padding: -5px;
+      
+      }
+
+      .link1 { 
+
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-right: 30px;
+        font-weight: 600;
+        position: relative;
+        bottom: 60px;
+        
+        
+        }
+        
+        .link1:hover { 
+        
+          cursor: pointer;
+          text-decoration: underline;
+        }
+
+.link { 
+
+color: rgb(255, 255, 255);
+text-decoration: none;
+margin-right: 30px;
+font-weight: 600;
+position: relative;
+bottom: 60px;
+
+}
+
+.link:hover { 
+
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.heading { 
+
+  position: absolute;
+  top: 100px;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  width: 1000px;
+}
+
+.mainimagecolor { 
+
+  background-color: #241e3bb6;
+  height: 1000px;
+  width: 100%;
+  padding: 70px;
+  position: absolute;
+}
+
+.headerimage{
+
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+
+.copy { 
+
+position: relative;
+top: 320px;
+color: white;
+width: 960px;
+font-size: 20px;
+}
+
+.button { 
+
+  position: relative;
+  top: 350px;
+  padding: 15px;
+  background-color: #AA7B64;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  }
+
+  .button:hover {
+
+    box-shadow: 10px 10px 8px #000000;
+    cursor: pointer;
+  }
+
+  .purplebg {
+
+    background-color: #241e3b;
+    width: 750px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+  .purplebg1 {
+
+    background-color: #241e3b;
+    width: 750px;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+
+  .flex{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .flex1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .qualitycopy {
+
+    width: 380px;
+    margin: 0 auto;
+  }
+
+  .icon {
+
+    margin-top: 50px;
+  }
+
+.healthsection{
+
+  background-color: #241e3b;
+  color: white;
+  padding: 30px;
+  display: flex;
+  height: 400px;
+}
+
+.toyssection{
+
+  background-color: #241e3b;
+  color: white;
+  padding: 30px;
+  display: flex;
+}
+
+
+.healthtext {
+
+  background-color: #241e3b;
+  color: white;
+  padding: 30px;
+  font-size: 60px;
+  margin-left: 150px;
+  width: 380px;
+}
+ 
+.healthcopy{
+
+margin-left: 180px;
+font-size: 20px;
+}
+ 
+.healthimage {
+
+position: relative;
+left: 40px;
+top: 20px;
+border-radius: 20px;
+margin-left: 50px;
+  }
+
+.visitusimage{
+
+  margin-top: 80px;
+  margin-left: 10px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+    }
+
+.flex1{
+
+display: flex;
+    }
+
+    .visitustext{
+
+    font-size: 80px;
+    margin: 40px;
+    margin-left: 90px;
+    color: #241e3b;
+    width: 390px;
+          }
+
+
+ .button1 { 
+
+  margin-left: 90px;
+  padding: 15px;
+  background-color: #241e3b;
+  color: white;
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+}
+          
+  .button1:hover {
+          
+  box-shadow: 10px 10px 8px #000000;
+  cursor: pointer;
+}
+          
+ .grid {
+          
+  display: grid;
+}
+
+.toys {
+          
+  border-radius: 20px;
+  margin: 60px;
+  margin-left: 170px;
+}
+
+.livepets {
+          
+  border-radius: 20px;
+  margin: 60px;
+  margin-left: 10px;
+}
+
+.toystext {
+
+  position: absolute;
+  color: #241e3b; 
+  left: 290px;
+  margin-top: 139px;      
+  font-size: 50px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+
+.livetext {
+
+  position: absolute;
+  color: #241e3b; 
+  left: 1090px;
+  margin-top: 139px;      
+  font-size: 50px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.whitebg {
+
+  position: absolute;
+  border-radius: 20px;
+  left: 200px;
+  margin-top: 60px;
+  width: 700px;
+  height: 400px;
+  background-color: #ffffff9f; 
+
+}
+
+.whitebg1 {
+
+  position: absolute;
+  border-radius: 20px;
+  left: 970px;
+  margin-top: 60px;
+  width: 700px;
+  height: 400px;
+  background-color: #ffffff9f; 
+
+}
+
+.livecopy {
+
+position: absolute;
+width: 400px;
+color: #241e3b;
+margin-left: 280px;
+margin-top: 220px;
+z-index: 1;
+font-size: 20px;
+}
+
+.livecopy1 {
+
+  position: absolute;
+  width: 400px;
+  color: #241e3b;
+  margin-left: 140px;
+  margin-top: 220px;
+  z-index: 1;
+  font-size: 20px;
+  }
+
+  .menu{
+
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .logo1 { 
+
+    display: block;
+    margin-left: 0px;
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+      }
+
+      #demo{
+
+        background-color: #241e3b;
+        padding: 50px;
+        width: 550px;
+        height: 520px;
+        z-index: 3;
+        border-radius: 10px;
+        border: #ffffff 15px solid;
+        position: absolute;
+        margin-left: 350px;
+      }
+
+      .signupbutton{
+
+          position: relative;
+          top: 20px;
+          padding: 15px;
+          background-color: #AA7B64;
+          color: white;
+          font-weight: 600;
+          border: none;
+          border-radius: 10px;
+        
+      }
+
+      .demo_close{
+
+        cursor: pointer;
+      }
+
+      .signupbutton:hover {
+        
+        box-shadow: 10px 10px 8px #000000;
+        cursor: pointer;
+      }
+
+      .popuphead{
+
+          font-size: 25px;
+          margin: 40px;
+          margin-left: 2px;
+          color: #ffffff;
+          width: 390px;
+          font-weight: 700;
+      }
+
+      .popupcopy{
+
+        font-size: 12px;
+        margin: 40px;
+        margin-left: 2px;
+        color: #ffffff;
+        width: 390px;
+      }
+
+      .overlay {
+        display: none; /* Initially hidden */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+        z-index: 2; /* Behind the popup but above other content */
+    }
+    
+    .popup {
+        display: none;
+        background-color: #241e3b;
+        padding: 50px;
+        width: 550px;
+        height: 520px;
+        z-index: 3; /* Above the overlay */
+        border-radius: 10px;
+        border: #ffffff 15px solid;
+        position: absolute;
+        margin-left: 350px;
+    }
+    
+    .popup.show {
+        display: block;
+    }
+    
+    .overlay.show {
+        display: block;
+    }
+
+    .menu-container {
+ 
+        width: 960px;
+    
+        height: 50px;
+  
+        margin: 80px auto;
+   
+        font-family: corbel;
+
+      }
+ 
+      ul.menu1 li {
+    
+        float: left;
+     
+        padding: 15px;
+      
+        list-style: none;
+  
+        width: 80px;
+     
+        height: 20px;
+   
+        text-align: left;
+  
+      }
+ 
+  
+      ul.menu1 li a {
+   
+        color: #fff;
+   
+        text-decoration: none;
+   
+      }
+  
+       
+
+      ul.menu1 li:hover {
+
+        color: #fff;
+
+        text-decoration: none;
+
+      }
+
+
+      ul.menu1 ul {
+  
+        background: #46211A;
+
+        position: relative;
+
+        top: 15px;
+
+        display: none;
+  
+        width: 70px;
+  
+        right: 15px;
+   
+      }
+       
+
+      ul.menu ul li {
+   
+        float: none;
+ 
+        position: relative;
+   
+        left: -40px;
+    
+        padding: 5px 15px 5px 15px;
+
+        border-top: 1px solid #fff;
+
+      }
+
+      .current { background-color: #46211A; }
+
+
+      .with-child::after {
+
+        content: '\25be';
+
+        color: #ffffff;
+    
+      }
+      
+
+  @media (max-width: 2000px) {
+    
+       /*     header       */
+
+    .close {
+    
+      position: absolute;
+      z-index: -2;
+  }
+
+    .mobile-sliding-menu { 
+
+      position: relative;
+      right: 120px;
+        }
+
+    .nav {
+    
+      position: relative;
+      left: 0px;
+  }
+     /*     header       */
+
+      /*     health section        */
+
+      .healthimage {
+
+        position: relative;
+        margin-top: 50px;
+        border-radius: 20px;
+        left: 90px;
+    
+          }
+        
+  
+      .healthsection{
+  
+        background-color: #241e3b;
+        color: white;
+        padding: 30px;
+        display: block;
+        height: 700px;
+        width: 100%;
+      }
+      
+      .healthtext {
+      
+        background-color: #241e3b;
+        color: white;
+        padding: 30px;
+        font-size: 40px;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+      }
+      
+      .healthcopy{
+  
+        margin-left: 0px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        }
+  
+        /*     health section        */
+  
+         /*     Live pets and toys and accessories section      */
+.toys {
+          
+  border-radius: 20px;
+  margin: 60px;
+  margin-left: 12px;
+}
+
+.livepets {
+          
+  position: relative;
+  border-radius: 20px;
+  margin: 60px;
+  margin-left: 0px;
+  right: 50px;
+}
+
+.toystext {
+
+  position: absolute;
+  color: #241e3b; 
+  left: 90px;
+  margin-top: 139px;      
+  font-size: 50px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+
+.livetext {
+
+  position: absolute;
+  color: #241e3b; 
+  left: 810px;
+  margin-top: 139px;      
+  font-size: 50px;
+  margin-left: 10px;
+  z-index: 2;
+}
+
+.whitebg {
+
+  position: absolute;
+  border-radius: 20px;
+  left: 42px;
+  margin-top: 60px;
+  width: 700px;
+  height: 400px;
+  background-color: #ffffff9f; 
+
+}
+
+.whitebg1 {
+
+  position: absolute;
+  border-radius: 20px;
+  left: 752px;
+  margin-top: 60px;
+  width: 700px;
+  height: 400px;
+  background-color: #ffffff9f;
+  z-index: 1; 
+
+}
+
+.livecopy {
+
+position: absolute;
+width: 400px;
+color: #241e3b;
+margin-left: 80px;
+margin-top: 220px;
+z-index: 1;
+font-size: 20px;
+}
+
+.livecopy1 {
+
+  position: absolute;
+  width: 400px;
+  color: #241e3b;
+  margin-left: 60px;
+  margin-top: 220px;
+  z-index: 2;
+  font-size: 20px;
+  }
+
+ /*     Live pets and toys and accessories section      */
+
+      }
+
+  @media (max-width: 1600px) {
+
+    /*     section edits       */
+    .healthsection,
+    .toyssection {
+      height: auto; 
+      padding-bottom: 50px; 
+    }
+  
+    
+    .footerwidth {
+      margin-bottom: 0;
+    }
+   /*     section edits       */
+
+    /*     Toys and Accessories section        */
+
+    .toyssection{
+
+      background-color: #241e3b;
+      color: white;
+      padding: 30px;
+      display: block;
+      height: 1070px;
+    }
+
+.toys {
+          
+  border-radius: 20px;
+  margin: 0px;
+  margin-left: 0px;
+  margin-top: -295px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.toystext {
+
+  position: absolute;
+  color: #241e3b; 
+  left: 0px;
+  margin-top: 189px;      
+  font-size: 50px;
+  margin-left: 70px;
+  width: 300px;
+  z-index: 1;
+}
+
+.livecopy {
+
+  position: absolute;
+  width: 400px;
+  color: #241e3b;
+  margin-left: 40px;
+  margin-top: 340px;
+  z-index: 1;
+  font-size: 20px;
+  }
+  
+  .whitebg {
+
+    position: relative;
+    border-radius: 20px;
+    left: 70px;
+    height: 400px;
+    top: 105px;
+    background-color: #ffffff9f;
+    margin: 0px;
+    margin-left: -71px;
+    margin-right: -31px;
+    width: 100% ;
+    margin-top: 0px;
+  }
+
+/*     Toys and Accessories section        */
+
+/*     live pets section        */
+
+.livetext {
+
+  position: relative;
+  color: #241e3b; 
+  left: -30px;
+  margin-top: 139px;      
+  font-size: 50px;
+  margin-left: 70px;
+  z-index: 2;
+}
+
+.livecopy1 {
+
+  position: relative;
+  width: 400px;
+  color: #241e3b;
+  margin-left: 40px;
+  margin-top: 50px;
+  z-index: 2;
+  font-size: 20px;
+  }
+
+.whitebg1 {
+
+  position: relative;
+  border-radius: 20px;
+  left: 31px;
+  bottom: 346px;
+  height: 400px;
+  background-color: #ffffff9f;
+  margin: 0px;
+  margin-left: -31px;
+  margin-right: -31px;
+  width: 100% ;
+  margin-top: 69px;
+  z-index: 1;
+}
+
+    .livepets {
+          
+      position: relative;
+      bottom: 362px;
+      border-radius: 20px;
+      margin: 0px;
+      margin-top: -400px;
+      left: 1px;
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: bottom;
+    }
+
+    /*     live pets section        */
+
+     
+        /*     Visit Us section        */
+    
+    .visitusimage {
+
+      margin-left: 0px;  
+      border-radius: 30px;
+      width: 80%;
+      height: 540px;
+      object-fit: cover;
+      object-position: bottom;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+    /*     Visit Us section        */
+
+        /*     health section        */
+
+        .healthimage {
+
+          position: relative;
+          margin-top: 50px;
+          border-radius: 20px;
+          left: 90px;
+      
+            }
+          
+    
+        .healthsection{
+    
+          background-color: #241e3b;
+          color: white;
+          padding: 30px;
+          display: block;
+          height: 700px;
+          width: 100%;
+        }
+        
+        .healthtext {
+        
+          background-color: #241e3b;
+          color: white;
+          padding: 30px;
+          font-size: 40px;
+          width: 100%;
+          margin-left: 0px;
+          text-align: center;
+        }
+        
+        .healthcopy{
+    
+          margin-left: 0px;
+          font-size: 20px;
+          width: 100%;
+          text-align: center;
+          }
+    
+          /*     health section        */
+
+
+        /*    Header section        */
+
+        .headerimage{
+
+          width: 100%;
+          height: 700px;
+          object-fit: cover;
+          object-position: bottom;
+        }
+    
+        
+    .button { 
+    
+      position: relative;
+      top: 190px;
+      padding: 15px;
+      background-color: #AA7B64;
+      color: white;
+      font-weight: 600;
+      border: none;
+      border-radius: 10px;
+      }
+    
+        .copy { 
+          margin-top: 90px;
+          position: relative;
+          top: 140px;
+          color: white;
+          width: 600px;
+          font-size: 17px;
+          }
+    
+        .heading { 
+    
+          position: absolute;
+          top: 100px;
+          font-size: 60px;
+          color: rgb(255, 255, 255);
+          width: 800px;
+        }
+    
+        .mainimagecolor { 
+    
+          background-color: #241e3bb6;
+          height: 700px;
+          width: 100%;
+          padding: 70px;
+          position: absolute;
+        }
+    
+        .menu{
+    
+            position: relative;
+            bottom: 80px;
+            left: 140px;
+            z-index: -1;
+        }
+        
+        .nav {
+    
+          position: relative;
+          left: 140px;
+      }
+    
+        
+        .header { 
+    
+          text-align: right;
+          background-color: #7E7E9C;;
+          height: 150px;
+            
+            }
+    
+            .logo { 
+    
+              top: 5px;
+                cursor: pointer;
+                } 
+
+                .mobile-sliding-menu { 
+
+                  position: relative;
+                  left: -10px;
+                    }
+                
+                .close {
+                
+                  position: absolute;
+                  z-index: -2;
+              }
+          
+                /*    Header section        */
+  }
+
+  @media (max-width: 1200px) {
+
+     /*    Section edits     */
+
+    .healthsection,
+    .toyssection {
+      height: auto; 
+      padding-bottom: 50px; 
+    }
+  
+   
+    .footerwidth {
+      margin-bottom: 0;
+    }
+  
+    /*    Section edits     */ 
+
+/*     footer section        */
+
+    .link { 
+
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: 600;
+      margin-bottom: 0px;
+      position: relative;
+      left: 190px;
+      
+      }
+
+
+/*     footer section        */       
+        
+
+    /*     Visit Us Today        */
+
+    .visitustext{
+
+      font-size: 80px;
+      margin: 0px;
+      position: relative;
+      color: #241e3b;
+      width: 100%;
+      margin-bottom: 50px;
+      text-align: center;
+            }
+
+    .button1 { 
+
+      padding: 15px;
+      background-color: #241e3b;
+      color: white;
+      font-weight: 800;
+      border: none;
+      border-radius: 10px;
+      margin: 0 auto;
+      display: flex;
+      margin-bottom: 50px;
+    }
+
+    
+      .visitusimage {
+
+      margin-left: 0px;  
+      border-radius: 30px;
+      width: 80%;
+      height: 540px;
+      object-fit: cover;
+      object-position: bottom;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+     /*     Visit Us Today        */
+
+    /*     health section        */
+
+    .healthimage {
+
+      position: relative;
+      margin-top: 50px;
+      border-radius: 20px;
+      left: 90px;
+        }
+      
+
+    .healthsection{
+
+      background-color: #241e3b;
+      color: white;
+      padding: 30px;
+      display: block;
+      height: 1000px;
+      width: 100%;
+    }
+    
+    .healthtext {
+    
+      background-color: #241e3b;
+      color: white;
+      padding: 30px;
+      font-size: 40px;
+      width: 100%;
+      margin-left: 0px;
+      text-align: center;
+    }
+    
+    .healthcopy{
+
+      margin-left: 0px;
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+      }
+
+      /*     health section        */
+   
+    /*    Header section        */
+
+    .headerimage{
+
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+      object-position: bottom;
+    }
+
+    
+.button { 
+
+  position: relative;
+  top: 190px;
+  padding: 15px;
+  background-color: #AA7B64;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  }
+
+    .copy { 
+      margin-top: 90px;
+      position: relative;
+      top: 140px;
+      color: white;
+      width: 600px;
+      font-size: 17px;
+      }
+
+    .heading { 
+
+      position: absolute;
+      top: 100px;
+      font-size: 60px;
+      color: rgb(255, 255, 255);
+      width: 800px;
+    }
+
+    .mainimagecolor { 
+
+      background-color: #241e3bb6;
+      height: 700px;
+      width: 100%;
+      padding: 70px;
+      position: absolute;
+    }
+
+    .menu{
+
+        position: relative;
+        bottom: 80px;
+        left: 140px;
+        z-index: -1;
+    } 
+    
+    .nav {
+
+      position: relative;
+      left: -10px;
+  
+  } 
+
+    
+    .header { 
+
+      text-align: right;
+      background-color: #7E7E9C;;
+      height: 150px;
+        
+        }
+
+        .logo { 
+
+          top: 5px;
+            cursor: pointer;
+            } 
+
+            .mobile-sliding-menu { 
+
+              position: relative;
+              left: -200px;
+                }
+      
+            /*    Header section        */
+  }
+
+  
+  @media (max-width: 900px) {
+
+    /*     Nav Menu        */ 
+
+    .menu-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+      visibility: hidden; /* Hidden by default */
+      opacity: 0; /* Fully transparent by default */
+      transition: opacity 0.3s ease; /* Smooth fade-in/out effect */
+      z-index: 2; /* Behind the sliding menu */
+    }
+    
+    .menu-overlay.active {
+      visibility: visible;
+      opacity: 1; /* Fully visible when active */
+    }
+    
+    .logo { 
+    
+    position: absolute;
+    top: 35px;
+      }
+
+      .alignright {
+
+     display: flex;
+      }
+
+      .mobile-nav {
+       display: block;
+      }
+    
+    .menu { 
+    
+    position: relative;
+    top: 2px;
+    left: 160px;
+    cursor: pointer;
+    float: right;
+      }
+    
+      .close {
+        position: relative;
+        left: -32px;
+        top: 58px;
+        cursor: pointer;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+      }
+    
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #7E7E9C;
+        position: relative;
+        z-index: 2;
+        height: 130px;
+      }
+
+      .mobile-sliding-menu {
+        position: fixed;
+        top: 39px;
+        left: 0;
+        width: 300px;
+        height: 100%;
+        background-color: #424257;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        transition: right 0.3s ease-in-out; 
+        z-index: 3;
+      }
+    
+      .mobile-sliding-menu.open {
+        right: 0; 
+      }
+    
+      .link {
+        padding: 15px 10px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2em;
+        position: relative;
+        top: 100px;
+        left: 0;
+        text-align: right;
+      }
+    
+      .link:hover {
+        background-color: #333346;
+      }  
+/*     Nav Menu        */ 
+
+    /*     footer section        */ 
+
+    .link1 { 
+
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: 600;
+      margin-bottom: 0px;
+      left: 0px;
+      position: relative;
+      }
+
+    .logo1 { 
+
+      display: block;
+      margin-left: 0px;
+      position: relative;
+      top: 170px;
+      cursor: pointer;
+        }
+
+    .footerwidth { 
+
+      width: 110px;
+      position: relative;
+      left: 50px;
+      
+        }    
+
+    .header1 { 
+
+      text-align: left;
+      background-color: #49496A;
+      height: 300px;
+        }
+        
+/*     footer section        */       
+        
+/*     Toys and Accessories section        */
+
+    .toyssection{
+
+      background-color: #241e3b;
+      color: white;
+      padding: 30px;
+      display: block;
+      height: 1070px;
+    }
+
+.toys {
+          
+  border-radius: 20px;
+  margin: 0px;
+  margin-left: 0px;
+  margin-top: -295px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.toystext {
+
+  position: absolute;
+  color: #241e3b; 
+  left: 0px;
+  margin-top: 189px;      
+  font-size: 50px;
+  margin-left: 70px;
+  width: 300px;
+  z-index: 1;
+}
+
+.livecopy {
+
+  position: absolute;
+  width: 400px;
+  color: #241e3b;
+  margin-left: 40px;
+  margin-top: 340px;
+  z-index: 1;
+  font-size: 20px;
+  }
+  
+  .whitebg {
+
+    position: relative;
+    border-radius: 20px;
+    left: 70px;
+    height: 400px;
+    top: 105px;
+    background-color: #ffffff9f;
+    margin: 0px;
+    margin-left: -71px;
+    margin-right: -31px;
+    width: 100% ;
+    margin-top: 0px;
+  }
+
+/*     Toys and Accessories section        */
+
+/*     live pets section        */
+
+.livetext {
+
+  position: relative;
+  color: #241e3b; 
+  left: -30px;
+  margin-top: 139px;      
+  font-size: 50px;
+  margin-left: 70px;
+  z-index: 2;
+}
+
+.livecopy1 {
+
+  position: relative;
+  width: 400px;
+  color: #241e3b;
+  margin-left: 40px;
+  margin-top: 50px;
+  z-index: 2;
+  font-size: 20px;
+  }
+
+.whitebg1 {
+
+  position: relative;
+  border-radius: 20px;
+  left: 31px;
+  bottom: 346px;
+  height: 400px;
+  background-color: #ffffff9f;
+  margin: 0px;
+  margin-left: -31px;
+  margin-right: -31px;
+  width: 100% ;
+  margin-top: 69px;
+  z-index: 1;
+}
+
+    .livepets {
+          
+      position: relative;
+      bottom: 362px;
+      border-radius: 20px;
+      margin: 0px;
+      margin-top: -400px;
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: bottom;
+    }
+
+    /*     live pets section        */
+
+    /*     Visit Us Today        */
+
+    .visitustext{
+
+      font-size: 80px;
+      margin: 0px;
+      position: relative;
+      color: #241e3b;
+      width: 100%;
+      margin-bottom: 50px;
+      text-align: center;
+            }
+
+    .button1 { 
+
+      padding: 15px;
+      background-color: #241e3b;
+      color: white;
+      font-weight: 800;
+      border: none;
+      border-radius: 10px;
+      margin: 0 auto;
+      display: flex;
+      margin-bottom: 50px;
+    }
+
+    
+      .visitusimage {
+
+      margin-left: 0px;
+      
+      border-radius: 30px;
+      width: 100%;
+      height: 540px;
+      object-fit: cover;
+      object-position: bottom;
+     
+    }
+
+     /*     Visit Us Today        */
+
+    /*     health section        */
+
+    .healthimage {
+
+      position: relative;
+      margin-top: 50px;
+      border-radius: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0px;
+        }
+      
+
+    .healthsection{
+
+      background-color: #241e3b;
+      color: white;
+      padding: 30px;
+      display: block;
+      height: 1400px;
+      width: 100%;
+    }
+    
+    .healthtext {
+    
+      background-color: #241e3b;
+      color: white;
+      padding: 30px;
+      font-size: 40px;
+      width: 100%;
+      margin-left: 0px;
+      text-align: center;
+    }
+    
+    .healthcopy{
+
+      margin-left: 0px;
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+      }
+
+      /*     health section        */
+
+
+      /*     purplebg section        */
+
+    .flex1 {
+
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .purplebg1 {
+
+      background-color: #241e3b;
+      width: auto;
+  
+      height: 400px;
+      margin-top: 70px;
+      margin-left: 30px;
+      margin-right: 30px;
+      border-radius: 20px;
+      text-align: center;
+      font-size: 20px;
+      color: white;
+    }
+
+    .flex {
+
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }  
+    
+  .purplebg {
+
+    background-color: #241e3b;
+    width: auto;
+
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+    /*     purplebg section        */
+
+    /*    Header section        */
+
+    .headerimage{
+
+      width: auto;
+      height: 700px;
+      object-fit: cover;
+      object-position: bottom;
+    }
+
+    
+.button { 
+
+  position: relative;
+  top: 190px;
+  padding: 15px;
+  background-color: #AA7B64;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  }
+
+    .copy { 
+      margin-top: 90px;
+      position: relative;
+      top: 140px;
+      color: white;
+      width: 400px;
+      font-size: 17px;
+      }
+
+    .heading { 
+
+      position: absolute;
+      top: 100px;
+      font-size: 40px;
+      color: rgb(255, 255, 255);
+      width: 400px;
+    }
+
+    .mainimagecolor { 
+
+      background-color: #241e3bb6;
+      height: 700px;
+      width: 100%;
+      padding: 70px;
+      position: absolute;
+    }
+    
+
+
+        .logo { 
+
+          top: 5px;
+            cursor: pointer;
+            } 
+      
+            /*    Header section        */
+  }

@@ -1,0 +1,457 @@
+.header { 
+
+  text-align: right;
+  background-color: #7E7E9C;
+  padding: 0px;
+   height: 130px; 
+    }
+
+    .mobile-sliding-menu { 
+
+      position: relative;
+      left: -10px;
+      top: 40px;
+        }
+
+.contactcopy { 
+
+  color: #241e3b;
+  margin-bottom: 60px;
+  width: 700px;
+  margin-left: 108px;
+  margin-top: 20px;
+      }
+
+ .contacttext { 
+
+  color: #241e3b;
+  font-size: 60px;
+  margin-left: 100px;
+  margin-top: 60px;
+ width: 800px;
+}
+
+.contactcopywhite { 
+
+color: #ffffff;
+margin-bottom: 60px;
+width: 700px;
+margin-left: 108px;
+ margin-top: 20px;
+ }
+        
+.contacttextwhite { 
+        
+ color: #ffffff;
+ font-size: 60px;
+ margin-left: 100px;
+ margin-top: 60px;
+ width: 800px;
+ }
+  .purplesection { 
+
+    background-color: #241e3b;
+    color: white;
+    padding: 30px;
+    display: flex;
+    height: 900px;
+  }
+
+  .purplesectionlast { 
+
+    background-color: #241e3b;
+    color: white;
+    padding: 30px;
+    display: flex;
+  }
+  
+  .button2 { 
+
+    margin-left: 90px;
+    padding: 15px;
+    background-color: #AA7B64;
+    color: white;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+  }
+
+            
+.button2:hover {
+      
+box-shadow: 10px 10px 8px #000000;
+cursor: pointer;
+}
+
+.passionsection {
+      
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  }
+
+  .passionimg {
+      
+border-radius: 20px;
+cursor: pointer;
+    }
+    
+    .missionbody {
+      
+      display: flex;
+      margin-top: 130px;
+          }
+
+
+    .missionimg {
+      
+      border-radius: 20px;
+      cursor: pointer;
+          }
+
+          .storysection {
+      
+           display: flex;
+           margin-bottom: 90px;
+           margin-top: 90px;
+           margin-left: 90px;
+                }
+
+         .storyimg {
+      
+      border-radius: 20px;
+      cursor: pointer;
+                }
+
+    .purplesectionbody {
+      
+      margin-bottom: 90px;
+      margin-top: 90px;
+      margin-left: 90px;
+           }
+
+      .lastpurpleimg {
+      
+        margin-bottom: 90px;
+        margin-top: 90px;
+        border-radius: 20px;
+        cursor: pointer;
+             }
+
+@media (max-width: 1700px) {
+
+
+
+  .mobile-sliding-menu { 
+  
+    position: relative;
+    left: 0px;
+    top: 40px;
+      }
+
+.contactcopy { 
+
+color: #241e3b;
+margin-bottom: 60px;
+width: 650px;
+margin-left: 8px;
+margin-top: 20px;
+    }
+
+.contacttext { 
+
+color: #241e3b;
+font-size: 60px;
+margin-left: 10px;
+margin-top: 60px;
+width: 600px;
+}
+
+.passionsection {
+  
+display: block;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 35px;
+}
+
+.passionimg {
+    
+border-radius: 20px;
+object-fit: cover;
+cursor: pointer;
+  }
+
+.purplesection { 
+
+display: block;
+}
+
+.contactcopywhite { 
+
+width: 600px;
+margin-left: 10px;
+
+}
+            
+.contacttextwhite { 
+            
+margin-left: 10px;
+width: 600px;
+}
+
+.missionimg {
+  
+object-fit: cover;
+cursor: pointer;
+}
+.missionbody {
+  
+display: block;
+margin-top: 10px;
+}
+
+.storysection {
+  
+display: block;
+margin-left: 10px;
+}
+
+.storyimg {
+  
+object-fit: cover;
+cursor: pointer;
+}
+
+.purplesectionlast { 
+
+display: block;
+}
+       
+.purplesectionbody {
+
+margin-left: 10px;
+}
+
+.button2 { 
+
+margin-left: 10px;
+}
+                                        
+.lastpurpleimg {
+  
+object-fit: cover;
+cursor: pointer;
+         }
+}
+
+
+@media (max-width: 1200px) {
+
+
+      .mobile-sliding-menu { 
+  
+        position: relative;
+        left: -170px;
+        top: 40px;
+          }
+
+  .contactcopy { 
+
+    color: #241e3b;
+    margin-bottom: 60px;
+    width: 650px;
+    margin-left: 8px;
+    margin-top: 20px;
+        }
+  
+   .contacttext { 
+  
+    color: #241e3b;
+    font-size: 60px;
+    margin-left: 10px;
+    margin-top: 60px;
+   width: 600px;
+  }
+  
+  .passionsection {
+      
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 35px;
+    }
+  
+    .passionimg {
+        
+  border-radius: 20px;
+  object-fit: cover;
+  cursor: pointer;
+      }
+
+.purplesection { 
+
+   display: block;
+}
+
+.contactcopywhite { 
+
+   width: 600px;
+   margin-left: 10px;
+
+}
+                
+.contacttextwhite { 
+                
+   margin-left: 10px;
+   width: 600px;
+}
+
+  .missionimg {
+      
+   object-fit: cover;
+   cursor: pointer;
+}
+   .missionbody {
+      
+   display: block;
+   margin-top: 10px;
+}
+
+  .storysection {
+      
+  display: block;
+  margin-left: 10px;
+}
+
+  .storyimg {
+      
+  object-fit: cover;
+  cursor: pointer;
+}
+
+  .purplesectionlast { 
+
+  display: block;
+}
+           
+  .purplesectionbody {
+    
+  margin-left: 10px;
+}
+
+  .button2 { 
+
+  margin-left: 10px;
+}
+                                            
+.lastpurpleimg {
+      
+object-fit: cover;
+cursor: pointer;
+             }
+
+ }
+
+
+ @media (max-width: 700px) {
+
+  .mobile-sliding-menu { 
+  
+    position: relative;
+    left: 0px;
+    top: 40px;
+      }
+            
+  .contactcopy { 
+
+    color: #241e3b;
+    margin-bottom: 60px;
+    width: 450px;
+    margin-left: 8px;
+    margin-top: 20px;
+        }
+  
+   .contacttext { 
+  
+    color: #241e3b;
+    font-size: 60px;
+    margin-left: 10px;
+    margin-top: 60px;
+   width: 500px;
+  }
+  
+  .passionsection {
+      
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    }
+  
+    .passionimg {
+        
+  border-radius: 20px;
+  object-fit: cover;
+      }
+
+.purplesection { 
+
+   display: block;
+}
+
+.contactcopywhite { 
+
+   width: 400px;
+   margin-left: 10px;
+
+}
+                
+.contacttextwhite { 
+                
+   margin-left: 10px;
+   width: 400px;
+}
+
+  .missionimg {
+      
+   object-fit: cover;
+}
+   .missionbody {
+      
+   display: block;
+   margin-top: 10px;
+}
+
+  .storysection {
+      
+  display: block;
+  margin-left: 10px;
+}
+
+  .storyimg {
+      
+  object-fit: cover;
+}
+
+  .purplesectionlast { 
+
+  display: block;
+}
+           
+  .purplesectionbody {
+    
+  margin-left: 10px;
+}
+
+  .button2 { 
+
+  margin-left: 10px;
+}
+                                            
+.lastpurpleimg {
+      
+object-fit: cover;
+             }
+            }

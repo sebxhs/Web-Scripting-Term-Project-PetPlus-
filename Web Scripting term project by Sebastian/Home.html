@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/ybox.min.css" rel="stylesheet">
+  <title>PetPlus - Home</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="scripts/jquery.popupoverlay.js"></script>  
+</head>
+<body>
+  
+<header>
+  <!-- Navigation Menu -->
+  <div class="header">
+
+        <!-- Logo -->
+        <a href="Home.html">
+          <img class="logo" src="images/petplus logo.png" width="150" height="120" alt="PetPlus Logo">
+        </a>
+
+    <div class="alignright">
+
+      <!-- Mobile Navigation Toggle -->
+      <div class="mobile-nav">
+        <a href="#">
+          <img class="menu" id="mobile-menu-toggle" src="images/NAV.png" width="50" height="50" alt="Navigation Toggle">
+        </a>
+      </div>
+
+    </div> 
+
+  </div>
+
+  <!-- Mobile Sliding Menu -->
+  <div class="menu-overlay" id="menu-overlay">
+
+  <div class="mobile-sliding-menu" id="mobile-sliding-menu">
+    <a href="#">
+      <img class="close" id="close-menu-toggle" src="images/close.png" width="50" height="50" alt="Navigation Close">
+    </a>
+
+    <!-- Nav Links -->
+    <a href="Home.html" class="link">Home</a>
+    <a href="#" class="link">Shop</a>
+    <a href="About Us.html" class="link">About Us</a>
+    <a href="Contact.html" class="link">Contact</a>
+    
+  </div>
+  
+</div>
+
+</header>
+
+<main>
+
+  <!-- Main Section Homepage -->
+  <section>
+
+    <div
+
+      class="animated"
+  
+      data-animated="fade,transform up"
+  
+      data-trigger="on screen"
+  
+      data-transition="600">
+    <div class="mainimagecolor">
+      <h1 class="heading">Welcome to Pet Plus Your Partner in Pet Care!</h1>
+      <p class="copy">
+          At Pet Plus, we’re more than just a pet store – we’re a community of animal lovers committed to helping your furry, feathery, or scaly friends live their best lives. From nutritious food to exciting toys, cozy bedding to essential supplies, we have everything you need to care for your beloved pets.
+      </p>
+      <button id="openPopup" class="button">Learn More</button>
+  
+      <div id="overlay" class="overlay"></div>
+  
+      <div id="popup" class="popup">
+          <a href="#" id="closePopup"><img class="demo_close" src="images/close.png" width="50px" height="50px" alt="Close"></a>
+          <h4 class="popuphead">Join PetPlus Today and Save Big on Pet Care!</h4>
+          <p class="popupcopy">Are you spending too much on your furry friend's care? PetPlus makes it easy and affordable to give your pet the love they deserve. With exclusive discounts on food, medications, and vet visits, plus free shipping on orders, your pet's happiness is just a click away.</p>
+          <button class="signupbutton">Sign Up Now and Get Your First Month FREE!</button>
+      </div>
+  </div>
+  
+  <picture>
+    <img src="images/main image.jpg" width="1897px" height="1000px" class="headerimage" alt="Man hugging his dog">
+  </picture>
+
+</div>
+  
+  
+  </section>
+  
+  <!-- Purple Section -->
+  <section>
+
+    <div
+
+    class="animated"
+
+    data-animated="fade,transform up"
+
+    data-trigger="on screen"
+
+    data-transition="600">
+  <div class="flex">
+    <div class="purplebg">
+      <img class="icon" src="/images/icon 3.png" width="100px" height="100px" alt="Quality Icon">
+      <h2 class="purplefont">Quality You Can Trust</h2>
+      <p class="qualitycopy">
+        We stock top-notch products from trusted brands to ensure your pets get the best care possible.
+      </p>
+    </div>
+    <div class="purplebg">
+      <img class="icon" src="/images/icon 2.png" width="130px" height="100px" alt="Experience Icon">
+      <h2 class="purplefont">A Tailored Experience</h2>
+      <p class="qualitycopy">
+        Our knowledgeable staff is here to guide you in finding the perfect items for your pet’s unique needs.
+      </p>
+    </div>
+  </div>
+  
+  <div class="flex1">
+    <div class="purplebg1">
+      <img class="icon" src="/images/icon 1.png" width="130px" height="100px" alt="Affordable Icon">
+      <h2 class="purplefont">Affordable Options</h2>
+      <p class="qualitycopy">
+        We believe in making great pet care accessible with competitive prices and frequent deals.
+      </p>
+    </div>
+    <div class="purplebg1">
+      <img class="icon" src="/images/icon 4.png" width="100px" height="100px" alt="Pet Food Icon">
+      <h2 class="purplefont">Pet Food & Treats</h2>
+      <p class="qualitycopy">
+        A variety of options to keep your pets healthy and happy.
+      </p>
+    </div>
+  </div>
+</div>
+  </section>
+  
+   <!-- Health and Wellness Section -->
+  <section>
+    
+    <div
+
+    class="animated"
+
+    data-animated="fade,transform up">
+  <div class="healthsection">
+  <div>  
+  <h2 class="healthtext">Health & Wellness</h2>
+  <p class="healthcopy">Vitamins, grooming tools and more to keep your pet thriving.</p>
+  </div>
+
+  <a href="images/health image 1.jpg" data-ybox-group="group1" class="yBox">
+  <img src="images/health image 1.jpg" width="300px" height="300px" class="healthimage">
+  </a>
+  <a href="images/health image 3.jpg" data-ybox-group="group1" class="yBox">
+  <img src="images/health image 3.jpg" width="300px" height="300px" class="healthimage">
+  </a>
+  <a href="images/health image 2.jpg" data-ybox-group="group1" class="yBox">
+  <img src="images/health image 2.jpg" width="300px" height="300px" class="healthimage">
+  </a>
+  </div>
+</div>
+
+  </section>
+
+  <!-- Visit Us Section -->
+  <section>
+
+    <div
+
+    class="animated"
+
+    data-animated="fade,transform up">
+    
+  <div class="flex1">
+    <picture>
+      <a href="images/visit us image.jpg" data-ybox-group="group1" class="yBox">
+      <img src="images/visit us image.jpg" width="800px" height="600px" class="visitusimage" alt="A smiling dog">
+      </a>
+    </picture>
+  <div>
+  <h2 class="visitustext">Visit Us Today!</h2>
+  <button class="button1">Learn More</button>
+  </div>
+  </div>
+
+</div>
+  </section>
+
+  <!-- Toys & Accessories/Live Pets Section -->
+  <section>
+
+    <div
+
+    class="animated"
+
+    data-animated="fade,transform up">
+    <div class="toyssection">
+  
+      <div>
+      <h2 class="toystext">Toys & Accessories</h2>
+      <p class="livecopy">Engage, entertain, and accessorize with our fun, safe, and stylish selection.</p>
+      <div class="whitebg"></div>
+      <img src="images/toys and accessories.jpg" width="700px" height="400px" class="toys" alt="Women with her cat reading a book">
+      </div>
+  
+      <div>
+      <h2 class="livetext">Live Pets</h2>
+      <p class="livecopy1">Looking for a new family member? Check out our selection of pets in need of loving homes.</p>
+      <div class="whitebg1"></div>
+      <img src="images/live pets.jpg" width="700px" height="400px" class="livepets" alt="Puppy looking Confused">
+      </div>
+  
+  </div>
+</div>
+  </section>
+
+</main>
+
+ <!-- Footer -->
+<footer>
+  <div class="header1">
+    <div class="alignright1">
+  
+      <a href="#">
+      <img class="logo1" src="images/petplus logo.png" width="150px" height="120px" alt="petplus logo">
+      </a>
+  
+      <div class="footerwidth">
+      <a href="#" class="link1">Visit Us</a>
+      <a href="#" class="link1">Call Us</a>
+      <a href="#" class="link1">Email Us</a> 
+      <a href="#" class="link1">Follow Us</a>
+      </div>
+  
+    </div> 
+    </div>
+</footer>
+
+<script src="scripts/ybox.min.js"></script>
+<script type="module" src="scripts/index.js"></script>
+<script src="scripts/js.js"></script>
+</body>
+</html>
